@@ -1,0 +1,37 @@
+{
+  "name": "@tursodatabase/vercel-experimental",
+  "version": "0.0.3",
+  "description": "Zero-config SQLite databases for Vercel Functions.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "turso",
+    "vercel",
+    "serverless",
+    "sqlite",
+    "database"
+  ],
+  "author": "Turso",
+  "license": "MIT",
+  "dependencies": {
+    "@tursodatabase/api": "^1.9.0",
+    "@tursodatabase/sync": "^0.5.0-pre.5",
+    "@vercel/functions": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
