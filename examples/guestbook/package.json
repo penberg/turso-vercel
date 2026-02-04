@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tursodatabase/vercel-experimental": "^0.0.2",
+    "@tursodatabase/vercel-experimental": "^0.0.3",
     "@vercel/functions": "^1.0.0",
     "next": "^14.0.0",
     "react": "^18.0.0",
