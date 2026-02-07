@@ -1,6 +1,6 @@
 {
   "name": "@tursodatabase/vercel-experimental",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Zero-config SQLite databases for Vercel Functions.",
   "type": "module",
   "main": "dist/index.js",
